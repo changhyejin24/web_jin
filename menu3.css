@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+        background-color: #fafafa;
+        font-family: 'NanumSquareRound';
+        color: #3a3b3b;
+      }
+header {
+  text-align: center;
+  margin: 10px;
+  border: 1px solid black;
+}
+#container {
+
+  overflow: auto;
+  margin: 10px 0px;
+}
+#nav {
+  margin-right: 3%;
+  width: 15%;
+  float: left;
+  height: 350px;
+}
+#content {
+ 
+  position: relative;
+  border: 1px solid black;
+  float: left;
+  width: 80%;
+  height: 350px;
+  font-family: 'NanumSquareRound';
+}
+footer {
+  
+  border: 1px solid black;
+  text-align: center;
+  clear: left;
+  font-family: 'NanumSquareRound';
+}
+
+body {
+font-family: 'NanumSquareRound';
+  margin: 0;
+}
+
+h2{
+  font-family: 'InfinitySans-RegularA1';
+  font-size: 30pt;
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+solid {
+  border-style: solid;
+  border-color: #d7bab4;
+}
+
+h2:hover {
+  
+  color: #2046a1;
+}
+ul {
+  font-family: 'InfinitySans-RegularA1';
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #efeae5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  font-family: 'InfinitySans-RegularA1';
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #dd9289;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #dd9289;
+  color: white;
+}
+box.active{
+  background-color: #d7bab4;
+
+}
+
+a {
+  text-decoration-color: #3868d9;
+  text-decoration-thickness: 4px;
+}
+h4 {
+  font-size: 17pt;
+}
+th {
+  background-color: #4e93b9;
+  font-size: 20pt;
+}
+tr {
+  background-color: #f2f0ed;
+}
+
+.table {border-collapse: separate;
+    font-family: 'NanumSquareRound';
+}
+  .top1 {font-size: 20pt;font-family: 'NanumSquareRound';}
+  .top2  {border-collapse:separate;border-spacing:0;font-family: 'NanumSquareRound';}
+  .top2 td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;font-family: 'NanumSquareRound';}
+  .top2 th{border-color:black;border-style:solid;border-width:1px;font-family: 'NanumSquareRound';font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  .top2 .top2{border-color:inherit;font-size:22px;text-align:left;vertical-align:top}
+  .top2 .top2{border-color:inherit;text-align:left;vertical-align:top}

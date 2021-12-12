@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+  text-align: center;
+  margin:10px;
+  border: 1px solid black;
+}
+#container{
+  overflow:auto;
+  margin:10px 0px;
+}
+#nav{
+  margin-right: 3%;
+  width: 15%;
+  float: left;
+  height: 350px;
+}
+#content{
+  position: relative;
+  border: 1px solid black;
+  float: left;
+  width:80%;
+  height: 350px;
+}
+footer{
+  border: 1px solid black;
+  text-align: center;
+  clear: left;
+}
+
+body {
+margin: 0;
+background-color: #fafafa;
+font-family: 'NanumSquareRound';
+color: #3a3b3b;
+}
+
+ul {
+font-family: 'InfinitySans-RegularA1';
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 15%;
+background-color: #efeae5;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+li a {
+font-family: 'InfinitySans-RegularA1';
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a.active {
+background-color: #dd9289;
+color: white;
+}
+
+li a:hover:not(.active) {
+background-color: #dd9289;
+color: white;
+}
+h2 {
+text-align: center;
+font-size: 30pt;
+font-family: 'InfinitySans-RegularA1';
+}
+span{
+font-weight:bold
+}
+h4 span:hover {
+color: white
+}
+h4 {
+font-size: 17pt;
+}
+h5 {
+font-size: 12pt;
+}
+span:hover {
+    color: white;
+    }
+.tb  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tb:hover {background-color: #e8cec1;}
+.tb td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:2px;color:#333;
+        font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal; text-align: center;}
+.tb th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:2px;color:#333;
+        font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tb .tb{border-color:inherit;font-size:16px;text-align:left;vertical-align:top}
+.tb .tb{border-color:inherit;font-size:16px;text-align:center;vertical-align:top}
+.tr{text-align: center;}
+
+.od  {border-collapse:collapse;border-color:#ccc;border-spacing:0; text-align: center;}
+.od td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+        font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.od th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+        font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.od .od{border-color:inherit;text-align:center;vertical-align:top}
+.od .od{border-color:inherit;font-size:16px;text-align:center;vertical-align:top}
+.od .od{border-color:inherit;font-size:18px;text-align:center;vertical-align:top}
+.od .od{border-color:inherit;font-size:18px;text-align:left;vertical-align:top}
+.od .od{border-color:inherit;text-align:left;vertical-align:top}
+
+.cm  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.cm td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+        font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.cm th{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+        font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.cm .cm{background-color:#f0f0f0;border-color:inherit;font-size:18px;font-weight:bold;text-align:center;vertical-align:top}
+.cm .cm{background-color:#f0f0f0;border-color:inherit;font-size:18px;text-align:center;vertical-align:top}
+.cm .cm{background-color:#f0f0f0; border-color:inherit;font-size:18px;font-weight:bold;text-align:center;vertical-align:top}
+.cm .cm{border-color:inherit;font-size:18px;text-align:center;vertical-align:top}
+.cm .cm{background-color:#f0f0f0;border-color:inherit;color:#494949;font-size:18px;text-align:center;vertical-align:middle}
+.cm .cm{background-color:#f0f0f0;border-color:inherit;color:#494949;font-size:18px;text-align:center;vertical-align:middle}
